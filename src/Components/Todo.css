@@ -1,0 +1,70 @@
+body {
+
+    /* background-image: url("background.png");; */
+    background-color: #e2d5de;
+}
+.container{
+    width: 50%;
+    margin-top: 50px;
+    background-color: rgb(251, 246, 246);
+    border: none;
+    padding: 30px;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    color: rgb(245, 8, 131);
+    font-weight:bolder ;
+}
+h3{
+    text-align: center;
+    color: rgb(101, 99, 99);
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+button {
+    margin-left: 10px;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+.list{
+    margin-top: 30px !important;
+}
+li{
+    margin-bottom: 15px;
+    margin-left: -12px;
+    background-color: rgb(81, 80, 80) !important;
+    color: white !important;
+    border: none !important;
+}
+.form-control{
+    display: flex;
+}
+.form-control .list-item-list{
+    flex:auto;
+}
+.form-control .list-item-icon{
+    padding-left: 5px ;
+    /* font-size: 25px; */
+    cursor: pointer;
+}
+#complete{
+    color: rgb(6, 249, 6);
+    font-size: 25px;
+}
+#edit{
+    color:rgb(45, 45, 247);
+    font-size: 28px;
+}
+#delete{
+    color: red;
+    font-size: 30px;
+}
+#list-item{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
